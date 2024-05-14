@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <launch>
+    <arg name="max_linear_vel" default="0.25"/>
+    <arg name="max_angular_vel" default="1.0"/>
     <arg name="output" default="log" doc="[screen, log]"/>
 
     <node pkg="base_controller_ros" type="base_controller_node" name="base_controller" output="$(arg output)">
+        <param name="max_linear_vel" value="$(arg max_linear_vel)"/>
+        <param name="max_angular_vel" value="$(arg max_angular_vel)"/>
     </node>
 </launch>
