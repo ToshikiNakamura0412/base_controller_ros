@@ -5,6 +5,7 @@
  * @copyright Copyright (c) 2024
  */
 
+#include <algorithm>
 #include <string>
 #include <utility>
 
