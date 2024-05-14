@@ -4,7 +4,9 @@ project(base_controller_ros)
 add_compile_options(-std=c++17 -O2 -g)
 
 find_package(catkin REQUIRED COMPONENTS
+  geometry_msgs
   roscpp
+  sensor_msgs
 )
 
 ###################################
