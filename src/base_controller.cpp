@@ -1,7 +1,7 @@
 /**
  * @file base_controller.cpp
  * @author Toshiki Nakamura
- * @brief C++ implementation of base controller
+ * @brief base_controller for mobile robot
  * @copyright Copyright (c) 2024
  */
 
