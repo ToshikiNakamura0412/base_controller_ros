@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="output" default="log" doc="[screen, log]"/>
+
+    <node pkg="base_controller_ros" type="base_controller_node" name="base_controller" output="$(arg output)">
+    </node>
+</launch>
