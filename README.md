@@ -5,6 +5,10 @@
 
 ROS implementation of base controller for mobile robot
 
+<p align="center">
+  <img src="images/base_controller.png" height="320px"/>
+</p>
+
 ## Environment
 - Ubuntu 20.04
 - ROS Noetic
