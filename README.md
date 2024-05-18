@@ -34,8 +34,6 @@ roslaunch base_controller_ros base_controller.launch
 ```
 # clone repository
 cd /path/to/your/catkin_ws/src
-git clone https://github.com/ToshikiNakamura0412/raycast_mapping_ros.git
-git clone https://github.com/ToshikiNakamura0412/scan_to_pcl_ros.git
 git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
 git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
