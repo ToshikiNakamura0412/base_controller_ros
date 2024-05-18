@@ -48,10 +48,6 @@ export TURTLEBOT3_MODEL=burger
 roslaunch base_controller_ros test.launch
 ```
 
-<p align="center">
-  <img src="https://github.com/ToshikiNakamura0412/amr_navigation_gifs/blob/master/images/<file_name>.gif" height="320px"/>
-</p>
-
 ## Node I/O
 ![Node I/O](images/node_io.png)
 
